@@ -2,8 +2,24 @@ body {
   background-color: brown;
 }
 
-#box-1 {
+/* #box-1 {
   height: 200px;
   width: 200px;
   background-color: chartreuse;
+} */
+
+#box1 {
+  height: 200px;
+  width: 200px;
+  background-color: rgb(191, 239, 143);
+}
+#box2 {
+  height: 200px;
+  width: 200px;
+  background-color: rgb(0, 204, 255);
+}
+#box3 {
+  height: 200px;
+  width: 200px;
+  background-color: rgb(255, 162, 0);
 }
