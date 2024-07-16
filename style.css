@@ -1,6 +1,6 @@
-body {
+/* body {
   background-color: brown;
-}
+} */
 
 /* #box-1 {
   height: 200px;
@@ -8,7 +8,7 @@ body {
   background-color: chartreuse;
 } */
 
-#box1 {
+/* #box1 {
   height: 200px;
   width: 200px;
   background-color: rgb(191, 239, 143);
@@ -22,4 +22,61 @@ body {
   height: 200px;
   width: 200px;
   background-color: rgb(255, 162, 0);
+} */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif; */
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #fff;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+#main {
+  height: 100%;
+  width: 100%;
+  background-color: black;
+  padding: 0 4vw;
+}
+
+#nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 5vw;
+}
+
+#nav-part-2 {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+#nav h3 {
+  font-size: 1.2vw;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+h1 {
+  font-size: 10vw;
+  font-weight: 400;
+  text-transform: uppercase;
+  line-height: 8vw;
+  width: 65vw;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+h1:nth-child(2) {
+  margin-top: 15vw;
+  text-align: left;
 }

@@ -18,30 +18,47 @@
 //   delay: 2,
 // });
 
+// const tl = gsap.timeline();
+
+// tl.to("#box1", {
+//   x: 1000,
+//   rotate: 360,
+//   borderRadius: "100px",
+//   transform: "translateY(100px)",
+//   duration: 1,
+//   scale: 1.2,
+//   delay: 1,
+// });
+// tl.to("#box2", {
+//   x: 800,
+//   rotate: 360,
+//   borderRadius: "100px",
+//   transform: "translateY(100px)",
+//   scale: 1.2,
+//   duration: 1,
+// });
+// tl.to("#box3", {
+//   x: 1000,
+//   rotate: 360,
+//   borderRadius: "100px",
+//   transform: "translateY(100px)",
+//   scale: 1.2,
+//   duration: 1,
+// });
+
 const tl = gsap.timeline();
 
-tl.to("#box1", {
-  x: 1000,
-  rotate: 360,
-  borderRadius: "100px",
-  transform: "translateY(100px)",
+tl.from("#nav h3", {
+  y: -50,
+  opacity: 0,
   duration: 1,
-  scale: 1.2,
-  delay: 1,
+  delay: 0.4,
+  stagger: 0.2,
 });
-tl.to("#box2", {
-  x: 800,
-  rotate: 360,
-  borderRadius: "100px",
-  transform: "translateY(100px)",
-  scale: 1.2,
+
+tl.from("h1", {
+  x: -100,
+  opacity: 0,
   duration: 1,
-});
-tl.to("#box3", {
-  x: 1000,
-  rotate: 360,
-  borderRadius: "100px",
-  transform: "translateY(100px)",
-  scale: 1.2,
-  duration: 1,
+  stagger: 0.2,
 });
